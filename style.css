@@ -1,0 +1,188 @@
+
+    /* Basic styling for the navigation menu */
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #000000;
+      }
+
+      li {
+          float: left;
+      }
+
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      li a:hover {
+          background-color: grey;
+      }
+
+      /* Basic styling for the header container and image */
+
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for the hover effect */
+.hover-text {
+    position: relative;
+    bottom: 140px;
+    left: 50%;
+    /* width:100; */
+    text-align: center;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header-container:hover .hover-text {
+    opacity: 1; /* Show on hover */
+}
+ 
+
+    /* Basic styling for the profile section */
+   
+
+.profile-photo {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.job-description {
+    font-size: 18px;
+    text-align: center;
+
+    color:green
+}
+
+.new-text
+{
+    text-align: center;
+
+    color:green
+}
+
+.line1
+{
+    background-color: green;
+    width: 15%;
+    height: 2px;
+}
+
+.text3
+{
+    color:green;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text4
+{
+    color:green;
+    text-align: center;
+}
+
+.my-proj
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.my-proj2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.txt1
+{
+    color:green;
+}
+
+.txt2
+{
+    color:green;
+}
+
+.line2
+{
+    background-color: green;
+    width: 15%;
+    height: 2px;
+}
+
+.text5
+{
+    color:green;
+    text-align: center;
+}
+
+.flex-container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.flex-container2 
+{
+   display: flex;
+
+  
+}
+
+.flex-container3
+{
+   display: flex;
+
+  
+}
+
+/* .imag{
+    width: 15%;
+
+} */
+
+.row {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
